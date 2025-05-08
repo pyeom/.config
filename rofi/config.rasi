@@ -8,26 +8,6 @@
 # ----------------------------------------------------- 
 */
 
-* {
-    background: rgba(0,0,1,0.5);
-    foreground: #FFFFFF;
-    color0:     #0A121B;
-    color1:     #056F93;
-    color2:     #039AA5;
-    color3:     #02C2BC;
-    color4:     #02A4D2;
-    color5:     #01AFEE;
-    color6:     #01D3D2;
-    color7:     #77e8e1;
-    color8:     #53a29d;
-    color9:     #056F93;
-    color10:    #039AA5;
-    color11:    #02C2BC;
-    color12:    #02A4D2;
-    color13:    #01AFEE;
-    color14:    #01D3D2;
-    color15:    #77e8e1;
-}
 
 /* --- Load pywal colors --- */
 @theme "~/.cache/wal/colors-rofi-dark.rasi"
@@ -37,7 +17,7 @@
 /* ---- Configuration ---- */
 configuration {
     modi:                       "drun,run";
-    font:                       "Fira Sans 11";
+    font:                       "JetBrains Mono Nerd Font Mono 11";
     show-icons:                 false;
     icon-theme:                 "kora";
     display-drun:               "APPS";
@@ -153,7 +133,7 @@ button {
 }
 
 button selected {
-    background-color:             @color11;
+    //background-color:             @color11;
     text-color:                   @foreground;
 }
 
@@ -203,7 +183,7 @@ element normal.active {
 }
 
 element selected.normal {
-    background-color:            @color11;
+    //background-color:            @color11;
     text-color:                  @foreground;
 }
 
